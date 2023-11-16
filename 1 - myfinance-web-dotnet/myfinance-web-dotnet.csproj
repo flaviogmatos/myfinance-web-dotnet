@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>myfinance_web_dotnet</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup> 
+    <ProjetReference Include="..\2 - myfinance-web-dotnet-service\myfinance-web-dotnet-service.csproj" />
+    <ProjetReference Include="..\3 - myfinance-web-dotnet-domain\myfinance-web-dotnet-domain.csproj" />
+    <ProjetReference Include="..\4 - myfinance-web-dotnet-infra\myfinance-web-dotnet-infra.csproj" />
+  </ItemGroup>
+</Project>
