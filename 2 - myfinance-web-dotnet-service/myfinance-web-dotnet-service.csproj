@@ -6,8 +6,5 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-  <ItemGroup> 
-    <ProjetReference Include="..\3 - myfinance-web-dotnet-domain\myfinance-web-dotnet-domain.csproj" />
-    <ProjetReference Include="..\4 - myfinance-web-dotnet-infra\myfinance-web-dotnet-infra.csproj" />
-  </ItemGroup>
+
 </Project>

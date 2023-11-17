@@ -6,13 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>myfinance_web_dotnet</RootNamespace>
   </PropertyGroup>
-  <ItemGroup> 
-    <ProjetReference Include="..\2 - myfinance-web-dotnet-service\myfinance-web-dotnet-service.csproj" />
-    <ProjetReference Include="..\3 - myfinance-web-dotnet-domain\myfinance-web-dotnet-domain.csproj" />
-    <ProjetReference Include="..\4 - myfinance-web-dotnet-infra\myfinance-web-dotnet-infra.csproj" />
-  </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.1" />
+    <ProjectReference Include="..\2 - myfinance-web-dotnet-service\myfinance-web-dotnet-service.csproj" />
+    <ProjectReference Include="..\3 - myfinance-web-dotnet-domain\myfinance-web-dotnet-domain.csproj" />
+    <ProjectReference Include="..\4 - myfinance-web-dotnet-infra\myfinance-web-dotnet-infra.csproj" />
   </ItemGroup>
 </Project>
