@@ -7,5 +7,4 @@ public class Transacao
     public DateTime Data {get; set;}
     public decimal Valor {get; set;}
     public int PlanoContaId {get; set;}
-
 }
