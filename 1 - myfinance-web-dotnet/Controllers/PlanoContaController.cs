@@ -35,6 +35,8 @@ namespace myfinance_web_dotnet.Controllers
                 listaPlanoContaModel.Add(itemPlanoConta);
             }
 
+            ViewBag.ListaPlanoConta = listaPlanoContaModel;
+
             return View();
         }
 
